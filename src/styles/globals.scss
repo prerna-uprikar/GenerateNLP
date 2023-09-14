@@ -1,0 +1,40 @@
+/* styles/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  background-color: #100E12;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ace-tm {
+  color: white;
+  background-color: #100E12;
+}
+
+.ace_layer.ace_gutter-layer.ace_folding-enabled {
+  background: #100E12;
+  color: white;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  background: transparent !important;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+  height: 245px;
+  width: 500px;
+}
